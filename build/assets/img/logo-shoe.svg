@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="159" height="56" viewBox="0 0 159 56">
+  <defs>
+    <linearGradient id="logo-shoe-a" x1="62.544%" x2="8.983%" y1="32.145%" y2="128.466%">
+      <stop offset="0%" stop-color="#07B0D9"/>
+      <stop offset="100%" stop-color="#C2036A"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -2)">
+    <path fill="url(#logo-shoe-a)" d="M0,51 C54,51 100.333333,34.8333333 139,2.5 C116.091531,25.3162085 97.091531,40.3162085 82,47.5 C59.3627034,58.2756873 37.5,61.7756873 0,51 Z"/>
+    <text font-family="Roboto-Bold, Roboto" font-size="36" font-weight="bold" letter-spacing="-.35">
+      <tspan x=".04" y="38" fill="#FFF">SHOE</tspan> <tspan x="92.226" y="38" fill="#C2036A" font-family="Roboto-Regular, Roboto" font-weight="normal">AP</tspan> <tspan x="137.897" y="38" fill="#C2036A" font-family="Roboto-Regular, Roboto" font-weight="normal">P</tspan>
+    </text>
+  </g>
+</svg>
