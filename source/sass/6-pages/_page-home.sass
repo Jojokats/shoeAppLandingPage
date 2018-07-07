@@ -4,7 +4,7 @@
   height: 700px
   color: #fff
   text-align: center
-  overflow: auto
+  overflow: hidden
 
 img
   max-width: 500px
@@ -47,42 +47,15 @@ article
     font-size: 1.4rem
     margin-bottom: 30px
 
+#brands ul
+  padding: 20px 0
+  background: #FFF
+  display: grid
+  grid-template-columns: repeat(6, auto)
+  @media only screen and (max-width:550px)
+    grid-template-columns: repeat(3, auto)
 
-
-
-
-
-
-
-// #header
-//   background: url("../img/heroBackground.jpg") no-repeat
-//   background-size: cover
-//   height: 750px
-//   color: white
-//   text-align: center
-//   overflow: hidden
-//
-//   @media only screen and (max-width: 680px)
-//     height: 500px
-//     background: url("../img/heroBackgroundSmall.jpg") no-repeat
-//
-//
-//   img
-//     max-width: 500px
-//     width: 100%
-//
-//   article
-//     width: 60%
-//     margin: 0 auto
-//
-//     @media only screen and (max-width: 680px)
-//       width: 100%
-//
-//   h1
-//     margin-bottom: 10px
-//     @media only screen and (max-width: 680px)
-//       margin-top: 60px
-//   p
-//     font-weight: 900
-//     @media only screen and (max-width: 680px)
-//       margin-bottom: 60px
+  li
+    list-style: none
+  li img
+    width: 100%
